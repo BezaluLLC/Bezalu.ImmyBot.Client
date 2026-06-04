@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Bezalu.ImmyBot.Client.Tests/Bezalu.ImmyBot.Client.Tests.csproj" />
+  <Project Path="Bezalu.ImmyBot.Client/Bezalu.ImmyBot.Client.csproj" />
+</Solution>
