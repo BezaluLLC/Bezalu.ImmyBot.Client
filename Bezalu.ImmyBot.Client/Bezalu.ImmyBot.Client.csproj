@@ -1,13 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	<PackageId>Bezalu.ImmyBot.Client</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>BezaluLLC</Authors>
+	<Description>Generated .NET client for the ImmyBot API</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/BezaluLLC/Bezalu.ImmyBot.Client</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageProjectUrl>https://github.com/BezaluLLC/Bezalu.ImmyBot.Client</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Kiota.Bundle" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Remove="Ref\**" />
   </ItemGroup>
 
 </Project>
