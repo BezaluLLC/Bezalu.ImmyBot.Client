@@ -11,7 +11,7 @@
 	<Description>Generated .NET client for the ImmyBot API</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<RepositoryUrl>https://github.com/BezaluLLC/Bezalu.ImmyBot.Client</RepositoryUrl>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageReadmeFile>..\README.md</PackageReadmeFile>
 	<PackageProjectUrl>https://github.com/BezaluLLC/Bezalu.ImmyBot.Client</PackageProjectUrl>
   </PropertyGroup>
 
