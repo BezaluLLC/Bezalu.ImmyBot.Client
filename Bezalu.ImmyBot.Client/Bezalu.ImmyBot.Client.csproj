@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
 	<PackageId>Bezalu.ImmyBot.Client</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.4</Version>
 	<Authors>BezaluLLC</Authors>
 	<Description>Generated .NET client for the ImmyBot API</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
